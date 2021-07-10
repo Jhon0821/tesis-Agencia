@@ -1,0 +1,122 @@
+
+ #calendar{
+     width: 800px;
+     margin:30px auto;
+     height: 500px;
+     
+
+ }
+
+
+#centrar a{
+    color: #fff;
+    text-decoration: none;
+    
+ }
+
+ #centrar{
+     padding: 30px;
+ }
+
+ #form{
+     margin: 15px auto;
+     padding: 50px 50px;
+ }
+ #tarjeta{
+     margin-top: 5px;
+ }
+ #documento{
+     margin-top: 5px;
+ }
+ #formulario{
+    margin: 15px auto;
+    padding: 50px 50px;
+ }
+
+
+
+ table, th, td{
+     border: 1px solid #000;
+ }
+
+ p{
+     width: 250px;
+     padding-left: 15px;
+     margin-bottom: 15px;
+     margin-top: 15px;
+     color: green;
+ }
+
+ .usuario{
+     padding-left: 15px;
+        margin-top: 0;
+ }
+
+ #tipo_habitacion{
+    margin: 15px;
+    margin-top: 0;
+    
+ }
+
+ .boton{
+     margin:20px;
+     margin-top: 0;
+ }
+
+ .btn_reserva{
+     margin: 15px;
+ }
+ 
+.alert{
+    background-color:#90EE90 ;
+    padding:20px 40px ;
+    min-width: 420px;
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+
+
+.alert .fa-check{
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+
+}
+
+
+.alert .close-btn{
+    padding: 20px 18px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+
+}
+
+
+.alert.show{
+    animation: show_slide 1s ease forwards ;
+}
+
+@keyframes show_slide {
+    0%{
+        transform: translateX(100%);
+    }
+    40%{
+        transform: translateX(-10%);
+    }
+    80%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(-10px);
+    }
+}
+
+.alert.hide{
+    display: none;
+}
+
